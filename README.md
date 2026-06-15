@@ -37,6 +37,13 @@ A modern, free, and fully customizable website template built with React.js, spe
 - **Status:** 🚀 Launching soon!
 - **Details:** [View Project Documentation](./ngo-website-react/README.md)
 
+### 🏢 [Company Startup Landing Page](./company-startup-landing-page)
+
+A sleek, responsive, and modern landing page template designed specifically for tech startups, agencies, and modern companies.
+
+- **Status:** 🚀 Launching soon!
+- **Details:** [View Project Documentation](./company-startup-landing-page/README.md)
+
 ---
 
 ## 💼 Our Ecosystem
