@@ -1,11 +1,33 @@
-# Kavya Sree Digital Solutions Website
+<div align="center">
+  <a href="https://www.fylo.co.in">
+    <img src="https://fylo.co.in/logo.png" alt="Fylo Logo" width="200" style="margin-bottom: 20px;"/>
+  </a>
+  
+  <h1>Kavya Sree Digital Solutions Website</h1>
+  <p><strong>A polished React + Vite landing page built for Kavya Sree Digital Solutions Pvt Ltd.</strong></p>
+
+  <p>
+    <a href="https://www.fylo.co.in">🌐 Website</a> •
+    <a href="https://fylo.co.in/about">🏢 About Us</a> •
+    <a href="https://fylo.co.in/services">💼 Services</a> •
+    <a href="https://fylo.co.in/products">📦 Products</a> •
+    <a href="https://console.fylo.co.in/auth">🔐 Login</a>
+  </p>
+
+  <br/>
+  <div style="border-radius: 15px; overflow: hidden; display: inline-block;">
+    <img src="../fylorepo.jpg" alt="Fylo Repository Banner" style="width: 100%; max-width: 800px; border-radius: 15px; margin-top: 20px;"/>
+  </div>
+</div>
+
+<hr/>
 
 [![Website](https://img.shields.io/website?url=https%3A%2F%2Fkavyasreedigitalsolutionspvtltd.com)](https://kavyasreedigitalsolutionspvtltd.com/)
 [![Built with React](https://img.shields.io/badge/React-19-blue?logo=react)](https://react.dev/)
 [![Vite](https://img.shields.io/badge/Vite-%234061ff?logo=vite&logoColor=white)](https://vitejs.dev/)
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind%20CSS-%2338B2AC?logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 
-A polished React + Vite landing page built for Kavya Sree Digital Solutions Pvt Ltd. This repository showcases the client’s service offerings, lead generation features, and digital branding presence.
+This repository showcases the client’s service offerings, lead generation features, and digital branding presence.
 
 ---
 
@@ -162,6 +184,7 @@ npm run build
 **Problem:** Server is serving `.js` files with wrong MIME type instead of `application/javascript`.
 
 **Solution for Coolify Static:**
+
 1. In Coolify, check that the **Web Server** is properly configured
 2. Ensure output directory points exactly to `dist/` (not a subdirectory)
 3. Try rebuilding: Delete previous build and redeploy
@@ -175,13 +198,14 @@ npm run build
 **Problem:** favicon or public assets are missing from the deployed site.
 
 **Solution:**
+
 1. Ensure `public/` folder exists in your project root
 2. Check that `vite.config.js` includes public directory config:
    ```javascript
    export default {
-     publicDir: 'public',
+     publicDir: "public",
      // ... other config
-   }
+   };
    ```
 3. Run `npm run build` locally and verify `dist/` contains all assets
 4. Redeploy — Coolify should copy favicon and other public assets to `dist/`
@@ -189,6 +213,7 @@ npm run build
 ### Site shows blank page or won't load
 
 **Check:**
+
 1. Verify Coolify deployment completed successfully (check logs)
 2. Confirm build output directory is set to `dist/`
 3. Test locally: `npm run build` then `npm run preview`
