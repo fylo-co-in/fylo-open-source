@@ -13,6 +13,9 @@
     <a href="https://fylo.co.in/products">📦 Products</a> •
     <a href="https://console.fylo.co.in/auth">🔐 Login</a>
   </p>
+
+  <br/>
+  <img src="fylorepo.jpg" alt="Fylo Repository Banner" style="width: 100%; max-width: 800px; margin-top: 20px; border-radius: 8px;"/>
 </div>
 
 <hr/>
@@ -26,7 +29,9 @@ Welcome to the official open-source repository of [Fylo](https://www.fylo.co.in)
 ## 🚀 Open Source Projects
 
 ### 🤝 [NGO Website (React JS)](./ngo-website-react)
-A modern, free, and fully customizable website template built with React.js, specifically designed for Non-Governmental Organizations (NGOs). 
+
+A modern, free, and fully customizable website template built with React.js, specifically designed for Non-Governmental Organizations (NGOs).
+
 - **Status:** 🚀 Launching soon!
 - **Details:** [View Project Documentation](./ngo-website-react/README.md)
 
@@ -36,9 +41,9 @@ A modern, free, and fully customizable website template built with React.js, spe
 
 Explore the broader Fylo ecosystem to discover our premium solutions, professional services, and platforms:
 
-| 🌐 Platform & Products | 🏢 Company |
-| :--- | :--- |
-| 📦 **[Premium Products](https://fylo.co.in/products)** - Explore our premium software products. | 🏢 **[About Fylo](https://fylo.co.in/about)** - Learn more about our mission and team. |
+| 🌐 Platform & Products                                                                                 | 🏢 Company                                                                               |
+| :----------------------------------------------------------------------------------------------------- | :--------------------------------------------------------------------------------------- |
+| 📦 **[Premium Products](https://fylo.co.in/products)** - Explore our premium software products.        | 🏢 **[About Fylo](https://fylo.co.in/about)** - Learn more about our mission and team.   |
 | 🛠️ **[Professional Services](https://fylo.co.in/services)** - View the professional services we offer. | 🔐 **[Client Console](https://console.fylo.co.in/auth)** - Secure login for our clients. |
 
 ---
