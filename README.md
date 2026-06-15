@@ -41,8 +41,8 @@ A modern, free, and fully customizable website template built with React.js, spe
 
 A sleek, responsive, and modern landing page template designed specifically for tech startups, agencies, and modern companies.
 
-- **Status:** 🚀 Launching soon!
-- **Details:** [View Project Documentation](./company-startup-landing-page/README.md)
+- **Status:** ✅ Active
+- **Details:** [company-startup-landing-page](./company-startup-landing-page)
 
 ---
 
