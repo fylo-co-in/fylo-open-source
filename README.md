@@ -15,7 +15,9 @@
   </p>
 
   <br/>
-  <img src="fylorepo.jpg" alt="Fylo Repository Banner" style="width: 100%; max-width: 800px; margin-top: 20px; border-radius: 8px;"/>
+  <div style="border-radius: 15px; overflow: hidden; display: inline-block;">
+    <img src="fylorepo.jpg" alt="Fylo Repository Banner" style="width: 100%; max-width: 800px; border-radius: 15px; margin-top: 20px;"/>
+  </div>
 </div>
 
 <hr/>
