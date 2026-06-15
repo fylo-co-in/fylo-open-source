@@ -1,0 +1,129 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --color-cream: var(--cream);
+  --color-ink: var(--ink);
+  --color-leaf: var(--leaf);
+
+  --font-display: "Fraunces", Georgia, serif;
+  --font-sans: "Inter", system-ui, sans-serif;
+
+  --shadow-soft: 0 12px 40px -16px oklch(0.55 0.18 45 / 0.25);
+  --shadow-card: 0 1px 2px oklch(0 0 0 / 0.04), 0 8px 24px -12px oklch(0.45 0.15 40 / 0.12);
+}
+
+:root {
+  --radius: 0.75rem;
+
+  /* Warm cream paper background */
+  --background: oklch(0.985 0.012 80);
+  --foreground: oklch(0.18 0.02 40);
+
+  --card: oklch(1 0 0);
+  --card-foreground: oklch(0.18 0.02 40);
+  --popover: oklch(1 0 0);
+  --popover-foreground: oklch(0.18 0.02 40);
+
+  /* Primary: vibrant warm orange */
+  --primary: oklch(0.68 0.19 45);
+  --primary-foreground: oklch(0.99 0 0);
+
+  /* Secondary: deep ink charcoal */
+  --secondary: oklch(0.22 0.02 50);
+  --secondary-foreground: oklch(0.985 0.012 80);
+
+  --muted: oklch(0.95 0.015 75);
+  --muted-foreground: oklch(0.42 0.02 45);
+
+  --accent: oklch(0.93 0.04 70);
+  --accent-foreground: oklch(0.22 0.02 50);
+
+  --destructive: oklch(0.58 0.22 27);
+  --destructive-foreground: oklch(0.99 0 0);
+
+  --border: oklch(0.9 0.02 65);
+  --input: oklch(0.9 0.02 65);
+  --ring: oklch(0.68 0.19 45);
+
+  /* Custom semantic tokens */
+  --cream: oklch(0.96 0.025 80);
+  --ink: oklch(0.18 0.02 40);
+  --leaf: oklch(0.5 0.11 145); /* complementary deep green */
+}
+
+.dark {
+  --background: oklch(0.18 0.02 40);
+  --foreground: oklch(0.985 0.012 80);
+  --card: oklch(0.22 0.02 50);
+  --card-foreground: oklch(0.985 0.012 80);
+  --popover: oklch(0.22 0.02 50);
+  --popover-foreground: oklch(0.985 0.012 80);
+  --primary: oklch(0.72 0.19 50);
+  --primary-foreground: oklch(0.18 0.02 40);
+  --secondary: oklch(0.96 0.025 80);
+  --secondary-foreground: oklch(0.18 0.02 40);
+  --muted: oklch(0.26 0.02 45);
+  --muted-foreground: oklch(0.7 0.02 60);
+  --accent: oklch(0.3 0.04 50);
+  --accent-foreground: oklch(0.985 0.012 80);
+  --border: oklch(1 0 0 / 10%);
+  --input: oklch(1 0 0 / 15%);
+  --ring: oklch(0.72 0.19 50);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+  html {
+    scroll-behavior: smooth;
+  }
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    font-feature-settings: "ss01", "cv11";
+    -webkit-font-smoothing: antialiased;
+  }
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
+  }
+}
+
+@utility container-x {
+  width: 100%;
+  margin-inline: auto;
+  padding-inline: 1.25rem;
+  max-width: 80rem;
+}
