@@ -35,7 +35,7 @@ Welcome to the official open-source repository of [Fylo](https://www.fylo.co.in)
 A modern, free, and fully customizable website template built with React.js, specifically designed for Non-Governmental Organizations (NGOs).
 
 - **Status:** ✅ Active
-- **Details:** [View Project Documentation](./ngo-website-react/README.md)
+- **Details:** [ngo-website-react](./ngo-website-react)
 
 ### 🏢 [Company Startup Landing Page](./company-startup-landing-page)
 
